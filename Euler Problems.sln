@@ -35,13 +35,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015 - Lattice Paths", "015 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016 - Power Digit Sum", "016 - Power Digit Sum\016 - Power Digit Sum.csproj", "{43B0F136-DE84-46F4-A7C9-D97EBBF80BF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017 - Number Letter Counts", "017 - Number Letter Counts\017 - Number Letter Counts.csproj", "{9074ADC1-619E-45A9-A0ED-30CE18EE8214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "017 - Number Letter Counts", "017 - Number Letter Counts\017 - Number Letter Counts.csproj", "{9074ADC1-619E-45A9-A0ED-30CE18EE8214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018 - Maximum Path Sum I", "018 - Maximum Path Sum I\018 - Maximum Path Sum I.csproj", "{82B3F0F1-884C-46AC-8AEA-4CEF7A8D686E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "018 - Maximum Path Sum I", "018 - Maximum Path Sum I\018 - Maximum Path Sum I.csproj", "{82B3F0F1-884C-46AC-8AEA-4CEF7A8D686E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "067 - Maximum Path Sum II", "067 - Maximum Path Sum II\067 - Maximum Path Sum II.csproj", "{108DD6A7-8F0B-4B39-9052-5C99D4FA392D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "067 - Maximum Path Sum II", "067 - Maximum Path Sum II\067 - Maximum Path Sum II.csproj", "{108DD6A7-8F0B-4B39-9052-5C99D4FA392D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019 - Counting Sundays", "019 - Counting Sundays\019 - Counting Sundays.csproj", "{6A611A5F-57E1-4382-ADC6-A2B49D527DE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "019 - Counting Sundays", "019 - Counting Sundays\019 - Counting Sundays.csproj", "{6A611A5F-57E1-4382-ADC6-A2B49D527DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020 - Factorial Digit Sum", "020 - Factorial Digit Sum\020 - Factorial Digit Sum.csproj", "{34B98895-C3F9-4987-910D-C74A6F3F018A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{6A611A5F-57E1-4382-ADC6-A2B49D527DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A611A5F-57E1-4382-ADC6-A2B49D527DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A611A5F-57E1-4382-ADC6-A2B49D527DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B98895-C3F9-4987-910D-C74A6F3F018A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B98895-C3F9-4987-910D-C74A6F3F018A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B98895-C3F9-4987-910D-C74A6F3F018A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B98895-C3F9-4987-910D-C74A6F3F018A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
