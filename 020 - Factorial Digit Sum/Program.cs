@@ -16,7 +16,7 @@ namespace _020___Factorial_Digit_Sum {
 
 			int n = 100;
 
-			Console.WriteLine(Enumerable.Range(1, n).Select(x => new BigInteger(x)).Aggregate((x, y) => BigInteger.Multiply(x, y)).ToString().Select(char.GetNumericValue).Sum());
+			Console.WriteLine(Enumerable.Range(1, n).Select(x => new BigInteger(x)).Aggregate(BigInteger.Multiply).ToString().Select(char.GetNumericValue).Sum());
 
 		}
 
