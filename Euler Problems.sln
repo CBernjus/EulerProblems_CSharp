@@ -51,6 +51,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "022 - Names Scores", "022 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "023 - Non-Abundant Sums", "023 - Non-Abundant Sums\023 - Non-Abundant Sums.csproj", "{4518BD92-9BD8-49EC-AB50-E7D7097A4FAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "024 - Lexicographic Permutations", "024 - Lexicographic Permutations\024 - Lexicographic Permutations.csproj", "{D02F7BC6-099F-46AA-87AE-76B0F9630962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "025 - 1000-Digit Fibonacci Number", "025 - 1000-Digit Fibonacci Number\025 - 1000-Digit Fibonacci Number.csproj", "{B75AB98A-F56D-4117-8062-963DF770566D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,14 @@ Global
 		{4518BD92-9BD8-49EC-AB50-E7D7097A4FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4518BD92-9BD8-49EC-AB50-E7D7097A4FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4518BD92-9BD8-49EC-AB50-E7D7097A4FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02F7BC6-099F-46AA-87AE-76B0F9630962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02F7BC6-099F-46AA-87AE-76B0F9630962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02F7BC6-099F-46AA-87AE-76B0F9630962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02F7BC6-099F-46AA-87AE-76B0F9630962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75AB98A-F56D-4117-8062-963DF770566D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75AB98A-F56D-4117-8062-963DF770566D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75AB98A-F56D-4117-8062-963DF770566D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75AB98A-F56D-4117-8062-963DF770566D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
