@@ -43,9 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "067 - Maximum Path Sum II",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "019 - Counting Sundays", "019 - Counting Sundays\019 - Counting Sundays.csproj", "{6A611A5F-57E1-4382-ADC6-A2B49D527DE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020 - Factorial Digit Sum", "020 - Factorial Digit Sum\020 - Factorial Digit Sum.csproj", "{34B98895-C3F9-4987-910D-C74A6F3F018A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "020 - Factorial Digit Sum", "020 - Factorial Digit Sum\020 - Factorial Digit Sum.csproj", "{34B98895-C3F9-4987-910D-C74A6F3F018A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021 - Amicable Numbers", "021 - Amicable Numbers\021 - Amicable Numbers.csproj", "{FA894E7F-6B54-4EEA-A0CA-0E2A99E3027D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "021 - Amicable Numbers", "021 - Amicable Numbers\021 - Amicable Numbers.csproj", "{FA894E7F-6B54-4EEA-A0CA-0E2A99E3027D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "022 - Names Scores", "022 - Names Scores\022 - Names Scores.csproj", "{6BAC905D-ABDF-4A07-B804-B0D40B561DA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{FA894E7F-6B54-4EEA-A0CA-0E2A99E3027D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA894E7F-6B54-4EEA-A0CA-0E2A99E3027D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA894E7F-6B54-4EEA-A0CA-0E2A99E3027D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAC905D-ABDF-4A07-B804-B0D40B561DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAC905D-ABDF-4A07-B804-B0D40B561DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAC905D-ABDF-4A07-B804-B0D40B561DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAC905D-ABDF-4A07-B804-B0D40B561DA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
