@@ -1,11 +1,14 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	class Problem067 {
 
-		public const string Name = "Maximum Path Sum II";
+	[ProblemName("Maximum Path Sum II")]
+	[ProblemSolution(7273)]
+	[ProblemDifficulty(5)]
+	class Problem067 {
 
 		// By starting at the top of the triangle below and moving to adjacent numbers on the row below,
 		// the maximum total from top to bottom is 23.
@@ -24,8 +27,6 @@ namespace EulerProblems {
 		// It is not possible to try every route to solve this problem, as there are 2^99 altogether!
 		// If you could check one trillion (1012) routes every second it would take over twenty billion years to check them all.
 		// There is an efficient algorithm to solve it. ; o)
-
-		// Solution: 7273
 
 		private const string InputPath = @"Resources\067-triangle.txt";
 

@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Linq;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	public static class Problem007 {
 
-		public const string Name = "10001st Prime";
+	[ProblemName("10001st Prime")]
+	[ProblemSolution(104743)]
+	[ProblemDifficulty(5)]
+	public static class Problem007 {
 
 		// By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 
 		// What is the 10001st prime number?
-
-		// Solution: 104743
 
 		private const int Index = 10001;
 

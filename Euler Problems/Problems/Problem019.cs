@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Diagnostics;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	class Problem019 {
 
-		public const string Name = "Counting Sundays";
+	[ProblemName("Counting Sundays")]
+	[ProblemSolution(171)]
+	[ProblemDifficulty(5)]
+	class Problem019 {
 
 		// You are given the following information, but you may prefer to do some research for yourself.
 
@@ -20,8 +23,6 @@ namespace EulerProblems {
 		// - A leap year occurs on any year evenly divisible by 4, but not on a century unless it is divisible by 400.
 
 		// How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
-
-		// Solution: 171
 
 		public const int FirstYear = 1901;
 		public const int LastYear = 2000;

@@ -1,9 +1,12 @@
 ﻿using System;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	public static class Problem006 {
 
-		public const string Name = "Sum Square Difference";
+	[ProblemName("Sum Square Difference")]
+	[ProblemSolution(25164150)]
+	[ProblemDifficulty(5)]
+	public static class Problem006 {
 
 		// The sum of the squares of the first ten natural numbers is,
 		// 1^2 + 2^2 + ... + 10^2 = 385
@@ -14,8 +17,6 @@ namespace EulerProblems {
 		// Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 − 385 = 2640.
 
 		// Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
-
-		// Solution: 25164150
 
 		private const int Max = 100;
 

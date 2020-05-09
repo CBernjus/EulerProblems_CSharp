@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Numerics;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	public static class Problem014 {
 
-		public const string Name = "Longest Collatz Sequence";
+	[ProblemName("Longest Collatz Sequence")]
+	[ProblemSolution(837799)]
+	[ProblemDifficulty(5)]
+	public static class Problem014 {
 
 		// The following iterative sequence is defined for the set of positive integers:
 
@@ -20,8 +23,6 @@ namespace EulerProblems {
 		// Which starting number, under one million, produces the longest chain?
 
 		// NOTE: Once the chain starts the terms are allowed to go above one million.
-
-		// Solution: 837799
 
 		private const int Max = 1000000;
 

@@ -1,17 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	public static class Problem003 {
 
-		public const string Name = "Largest Prime Factor";
+	[ProblemName("Largest Prime Factor")]
+	[ProblemSolution(6857)]
+	[ProblemDifficulty(5)]
+	public static class Problem003 {
 
 		// The prime factors of 13195 are 5, 7, 13 and 29.
 
 		// What is the largest prime factor of the number 600851475143 ?
-
-		// Solution: 6857
 
 		private const long Number = 600851475143L;
 

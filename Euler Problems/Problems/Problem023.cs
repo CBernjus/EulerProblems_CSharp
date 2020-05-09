@@ -1,9 +1,12 @@
 ﻿using System.Linq;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	class Problem023 {
 
-		public const string Name = "Non-Abundant Sums";
+	[ProblemName("Non-Abundant Sums")]
+	[ProblemSolution(4179871)]
+	[ProblemDifficulty(5)]
+	class Problem023 {
 
 		// A perfect number is a number for which the sum of its proper divisors is exactly equal to the number.
 		// For example, the sum of the proper divisors of 28 would be 1 + 2 + 4 + 7 + 14 = 28, which means that 28 is a perfect number.
@@ -18,8 +21,6 @@ namespace EulerProblems {
 		// that cannot be expressed as the sum of two abundant numbers is less than this limit.
 
 		// Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
-
-		// Solution: 4179871
 
 		private const int Max = 28123;
 

@@ -1,9 +1,12 @@
 ﻿using System;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	public static class Problem009 {
 
-		public const string Name = "Special Pythagorean Triplet";
+	[ProblemName("Special Pythagorean Triplet")]
+	[ProblemSolution(31875000)]
+	[ProblemDifficulty(5)]
+	public static class Problem009 {
 
 		// A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
 		// a^2 + b^2 = c^2
@@ -12,8 +15,6 @@ namespace EulerProblems {
 
 		// There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 		// Find the product abc.
-
-		// Solution: 31875000
 
 		private const int Sum = 1000;
 

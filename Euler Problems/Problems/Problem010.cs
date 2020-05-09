@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Linq;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	public static class Problem010 {
 
-		public const string Name = "Summation Of Primes";
+	[ProblemName("Summation Of Primes")]
+	[ProblemSolution(142913828922)]
+	[ProblemDifficulty(5)]
+	public static class Problem010 {
 
 		// The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 
 		// Find the sum of all the primes below two million.
-
-		// Solution: 142913828922
 
 		private const int Max = 2000000;
 

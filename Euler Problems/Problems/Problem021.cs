@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	class Problem021 {
 
-		public const string Name = "Amicable Numbers";
+	[ProblemName("Amicable Numbers")]
+	[ProblemSolution(31626)]
+	[ProblemDifficulty(5)]
+	class Problem021 {
 
 		// Let d(n) be defined as the sum of proper divisors of n (numbers less than n which divide evenly into n).
 		// If d(a) = b and d(b) = a, where a ≠ b, then a and b are an amicable pair and each of a and b are called amicable numbers.
@@ -14,8 +15,6 @@ namespace EulerProblems {
 		// The proper divisors of 284 are 1, 2, 4, 71 and 142; so d(284) = 220.
 
 		// Evaluate the sum of all the amicable numbers under 10000.
-
-		// Solution: 31626
 
 		private const int Limit = 10000;
 

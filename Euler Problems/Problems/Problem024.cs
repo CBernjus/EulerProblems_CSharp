@@ -1,10 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	class Problem024 {
 
-		public const string Name = "Lexicographic Permutations";
+	[ProblemName("Lexicographic Permutations")]
+	[ProblemSolution(2783915460)]
+	[ProblemDifficulty(5)]
+	class Problem024 {
 
 		// A permutation is an ordered arrangement of objects.
 
@@ -15,8 +18,6 @@ namespace EulerProblems {
 		// 012, 021, 102, 120, 201, 210
 
 		// What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9?
-
-		// Solution: 2783915460
 
 		private const string Elements = "0123456789";
 		private const int RequestedIndex = 1000000;

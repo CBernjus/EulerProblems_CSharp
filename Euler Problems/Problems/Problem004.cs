@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Linq;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	public static class Problem004 {
 
-		public const string Name = "Largest Palindrome Product";
+	[ProblemName("Largest Palindrome Product")]
+	[ProblemSolution(906609)]
+	[ProblemDifficulty(5)]
+	public static class Problem004 {
 
 		// A palindromic number reads the same both ways.The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
 		// Find the largest palindrome made from the product of two 3-digit numbers.
-
-		// Solution: 906609
 
 		private const int Digits = 3;
 

@@ -1,16 +1,17 @@
 ﻿using System.Linq;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	public static class Problem005 {
 
-		public const string Name = "Smallest Multiple";
+	[ProblemName("Smallest Multiple")]
+	[ProblemSolution(232792560)]
+	[ProblemDifficulty(5)]
+	public static class Problem005 {
 
 		// 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 
 		// What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
-
-		// Solution: 232792560
-
+		
 		private const int Max = 20;
 
 		public static object Solve() {

@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
+using EulerProblems.Meta;
 
 namespace EulerProblems {
-	class Problem025 {
 
-		public const string Name = "1000-Digit Fibonacci Number";
+	[ProblemName("1000-Digit Fibonacci Number")]
+	[ProblemSolution(4782)]
+	[ProblemDifficulty(5)]
+	class Problem025 {
 
 		// The Fibonacci sequence is defined by the recurrence relation:
 
@@ -29,8 +32,6 @@ namespace EulerProblems {
 		// The 12th term, F12, is the first term to contain three digits.
 
 		// What is the index of the first term in the Fibonacci sequence to contain 1000 digits?
-
-		// Solution: 4782
 
 		private const int Digits = 1000;
 
